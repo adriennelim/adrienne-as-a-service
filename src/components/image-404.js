@@ -47,7 +47,7 @@ const Image404 = () => {
     return <div>Picture not found</div>
   }
 
-  return <NonStretchedImage fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <NonStretchedImage fluid={data.placeholderImage.childImageSharp.fluid} alt="404image"/>
 }
 
 export default Image404
